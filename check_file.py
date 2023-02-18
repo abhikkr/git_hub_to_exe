@@ -50,7 +50,7 @@ def check_modules(dir):
 
 def find_files(main_file_name):
     # dir_path = dir_path.replace("\\","/")
-    command_line = 'python3 -m PyInstaller '
+    command_line = 'python3 -m PyInstaller --onefile '
     present_dir = os.getcwd()
     # check_modules(present_dir)
     print("Present working directory:>",present_dir)
