@@ -9,4 +9,4 @@ One can use the gui version of it.
 
 If you have docker then run the projet from the docker file. Though the docker file need some changes. 
 
-We can modify the code to distribute each process to speed up the process.
+
