@@ -35,12 +35,12 @@ def generate_file():
     finish_label=customtkinter.CTkLabel(app,text="Finished",font=("Terminal",20),text_color='white')
     finish_label.pack()
 
-progressbar = ttk.Progressbar(mode="indeterminate")
-progressbar.start()
+# progressbar = ttk.Progressbar(mode="indeterminate")
+# progressbar.start()
 
-temp_label = customtkinter.CTkLabel(app,text="")
-temp_label.configure(text=progressbar.pack())
-temp_label.pack()
+# temp_label = customtkinter.CTkLabel(app,text="")
+# temp_label.configure(text=progressbar.pack())
+# temp_label.pack()
 ui_button = customtkinter.CTkButton(app,text="Generate File",command=generate_file)
 ui_button.pack(padx=10,pady=10)
 
